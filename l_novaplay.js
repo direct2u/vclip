@@ -1,3 +1,4 @@
+<script>
 var cmpFaktorio = document.getElementById("cmp-faktor-io");
 if (cmpFaktorio){ cmpFaktorio.style.display = "none"; }
 
@@ -100,3 +101,4 @@ document.addEventListener('click', function(e) {
 		event.preventDefault(); return false;
 	}
 }, false);
+</script>
